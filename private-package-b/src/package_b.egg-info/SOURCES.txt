@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+setup.py
+src/package_b.egg-info/PKG-INFO
+src/package_b.egg-info/SOURCES.txt
+src/package_b.egg-info/dependency_links.txt
+src/package_b.egg-info/not-zip-safe
+src/package_b.egg-info/requires.txt
+src/package_b.egg-info/top_level.txt
+src/private_package_b/__init__.py

@@ -1,0 +1,26 @@
+[pipenv]
+install_search_all_sources = false
+
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[[source]]
+name = "fury"
+url = "https://cndw:sAQTE-H7NooYprB7JQKb5NztLovobeQ@pypi.fury.io/cndw/"
+verify_ssl = true
+
+[dev-packages]
+pytest = "==7.2.0"
+flake8 = "==6.0.0"
+black = "==22.12.0"
+mock = "==5.0.0"
+
+[packages]
+private-package-a = {version = "==0.0.4", index = "fury"}
+private-package-b = {version = "==0.0.3", index = "fury"}
+
+[requires]
+python_version = "3.11"
+

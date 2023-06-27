@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: package-b
+Version: 0.0.2
+Summary: A fake python package.
+Home-page: https://github.com/sarugaku/legacy_backend_package
+Author: Dan Ryan
+Author-email: dan@danryan.co
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python
+Provides-Extra: reco
+Provides-Extra: tests
+Provides-Extra: lint
+Provides-Extra: dev
